@@ -120,4 +120,30 @@ i}
      	font-family: 'Titillium Web', Sans-serif;
      	src: url('/fonts/TitilliumWeb-SemiBold.ttf'); 
 }
+@keyframes discord {
+	0% {height:70px; width:250px;}
+	 100% {height:400px;width:350px;}
+}
+@keyframes discord-c {
+	0% {height:400px;width:350px;}
+    100% {height:70px; width:250px;}
+}
+.discord {
+	animation-name: discord-c;
+	animation-duration: 2s;
+	animation-play-state: pause;
+	float:center;
+    height:70px;
+	width:250px;
+   
+	
+}
 
+.discord:hover {
+	height:400px;
+	width:350px;
+	float:center;
+	animation-name: discord;
+	animation-duration: 2s;
+	animation-play-state: pause;
+}
