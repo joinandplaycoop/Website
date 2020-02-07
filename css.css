@@ -53,6 +53,7 @@ a:hover, a:active, a:focus {
 	ext-align: center;
 	margin: auto;
     min-width: 100px;
+	max-width: 400px;
 	width:35vh;
 	margin-top: 15%;
 	border-bottom: transparent;v
