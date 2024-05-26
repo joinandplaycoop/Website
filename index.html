@@ -5,20 +5,20 @@
 <head>
 
     <title>Join And Play COOP !</title>
-	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="css.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script>
-		function GetClock() {
-		var d = new Date();
-		document.getElementById('time').innerHTML = d.toString().substring(16, 25);
-		}
+        <script>
+                function GetClock() {
+                var d = new Date();
+                document.getElementById('time').innerHTML = d.toString().substring(16, 25);
+                }
 
-		$(document).ready(function () {
-			GetClock();
-			setInterval(GetClock, 100);
-		})
-	</script>
+                $(document).ready(function () {
+                        GetClock();
+                        setInterval(GetClock, 100);
+                })
+        </script>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 
@@ -34,13 +34,14 @@
         <a href="https://github.com/joinandplaycoop/Factorio-Scenarios"><div class="menu_button">Scenario</div></a>
         <a href="https://saves.joinandplaycoop.com"><div class="menu_button">Saves</div></a>
         <a href="https://discord.joinandplaycoop.com"><div class="menu_button">Discord</div></a>
-        <a href="https://stats.joinandplaycoop.com"><div class="menu_button">Stats - Player List</div></a>
-		<a href="https://panel.joinandplaycoop.com"><div class="menu_button">Management panel</div></a>
+        <!--<a href="https://stats.joinandplaycoop.com"><div class="menu_button">Stats - Player List</div></a>-->
+        <a href="https://panel.joinandplaycoop.com"><div class="menu_button">Management panel</div></a>
         <div id="menu_footer"></div>
     </div>
         <div align="center" style="padding:20px;">
         <iframe class="discord" src="https://discordapp.com/widget?id=420865611279630336&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
           </div>
+<div id="footer" color="white">Proudly hosted and sponsored by <a href="https://polisystems.ch/en/factorio-hosting">Poli Systems GmbH</a></div>
 </body>
 
 </html>
